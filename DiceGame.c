@@ -20,9 +20,9 @@ int main()
     }
     printf("Total value: %d\n", a[0] + a[1]);
     if (a[0] + a[1] >= 7)
-        printf("You won!\n");
+        printf("%s won!\n", name);
     else
-        printf("You lost\n");
+        printf("%s lost\n", name);
 
     return 0;
 }
