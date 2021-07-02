@@ -5,7 +5,12 @@
 int main()
 {
     int a[2];
+    char name[20];
     srand((int)time(NULL));
+
+    printf("What is your name?\n>");
+    scanf("%s", name);
+    printf("Hello, %s!\n", name);
 
     printf("Rolling the dice...\n");
     for (int i = 0; i < 2; i++)
